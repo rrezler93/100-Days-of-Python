@@ -1,3 +1,5 @@
+# Simple program that calculates cans of paints needed for the job
+
 import math
 
 
