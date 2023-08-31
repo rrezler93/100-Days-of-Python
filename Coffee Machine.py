@@ -126,5 +126,5 @@ def turn_on():
         else:
             print("Wrong choice!")
 
-
+# Start:
 turn_on()
