@@ -46,7 +46,7 @@ def draw_square_art(dots_per_row):
         if i % 2 == 1:
             dots += 1
 
-
+# Draw whole art:
 draw_square_art(11)
 
 screen.exitonclick()
