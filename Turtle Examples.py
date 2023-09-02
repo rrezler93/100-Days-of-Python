@@ -1,18 +1,36 @@
+# Import all functions and classes from the Turtle library
 from turtle import *
+
+# Import all functions and classes from the random module
 from random import *
 
+# Create a Turtle object for drawing
 turtle = Turtle()
+
+# Set the shape of the turtle pen to "classic"
 turtle.shape("classic")
+
+# Set the color of the pen to grey
 turtle.color("grey")
+
+# Set the width of the drawing line to 15 pixels
 turtle.width(15)
+
+# Set the drawing speed to 500 (very fast)
 turtle.speed(500)
 
+# Create a Screen object representing the main Turtle screen
 screen = Screen()
+
+# Set the background color of the screen to black
 screen.bgcolor("black")
 
-colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray",
-           "SeaGreen"]
+# Define a list of available colors
+colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
+
+# Initialize the 'colour' variable to 0, which will be used to track the current color
 colour = 0
+
 
 # Different shapes:
 #
