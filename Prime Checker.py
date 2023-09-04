@@ -1,3 +1,4 @@
+# Checks if the number is prime, and print the results
 def prime_checker(number):
     no_rest = 0
     for i in range(1, number + 1):
@@ -8,6 +9,7 @@ def prime_checker(number):
     else:
         print("It's not a prime number.")
 
-
+# Ask for a number
 n = int(input("Check this number: "))
+#Print the results 
 prime_checker(number=n)
