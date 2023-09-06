@@ -111,5 +111,6 @@ def play_game():
   print(f"\n      Computer cards:   {computer_cards}\n\n      Current score:    {computer_score}\n\n---------------------------------------------------------------\n")
   print((f"      {calculate_end(user_score, computer_score)}"))
 
+
 # Start the game
 play_game()
