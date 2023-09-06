@@ -1,3 +1,4 @@
+# Code to calculate restaurant cost per person:
 print("Welcome to the tip calculator!")
 bill = float(input("What was the total bill? £"))
 people = int(input("How many people to split the bill? "))
