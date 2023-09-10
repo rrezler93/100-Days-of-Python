@@ -1,3 +1,5 @@
+# RPG simple class test
+
 class Enemy:
     def __init__(self, name, health, damage):
         self.health = health
