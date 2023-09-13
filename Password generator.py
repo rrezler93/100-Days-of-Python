@@ -1,6 +1,8 @@
+# Imports
 import random
 import string
 
+# Generate password with desired characters 
 def generate_password():
     length = int(input("Enter the length of the password: "))
     num_letters = int(input("Enter the number of letters in the password: "))
