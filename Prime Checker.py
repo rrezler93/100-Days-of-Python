@@ -1,4 +1,4 @@
-# Checks if the number is prime, and print the results
+# Checks if the number is prime, and print the results 
 def prime_checker(number):
     no_rest = 0
     for i in range(1, number + 1):
