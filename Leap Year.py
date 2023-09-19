@@ -1,4 +1,4 @@
-# This script checks, if the provided year is a leap year or not
+# This script checks, if the provided year is a leap year or not 
 
 year = int(input("Which year do you want to check? "))
 
