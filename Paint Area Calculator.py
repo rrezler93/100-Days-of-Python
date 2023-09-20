@@ -1,4 +1,4 @@
-# Simple program that calculates cans of paints needed for the job
+# Simple program that calculates cans of paints needed for the job 
 
 # Import the math module to use the ceiling function for rounding up
 import math  
