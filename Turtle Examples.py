@@ -1,5 +1,5 @@
 # Import all functions and classes from the Turtle library
-from turtle import *
+from turtle import * 
 
 # Import all functions and classes from the random module
 from random import *
