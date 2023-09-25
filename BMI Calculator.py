@@ -1,4 +1,4 @@
-# Prompt the user to input their height in meters
+# Prompt the user to input their height in meters 
 height = float(input("Enter your height in meters: "))
 
 # Prompt the user to input their weight in kilograms
