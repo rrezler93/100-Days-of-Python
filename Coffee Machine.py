@@ -1,4 +1,4 @@
-# TODO 1.1: Menu
+# TODO 1.1: Menu 
 
 menu = {
     "espresso": {
