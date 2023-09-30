@@ -1,3 +1,6 @@
+# Simple Coffee Machine
+# (functions and TODO used)
+
 # TODO 1.1: Menu 
 
 menu = {
