@@ -1,5 +1,6 @@
 # RPG simple class test
 
+# Enemy class
 class Enemy:
     def __init__(self, name, health, damage):
         self.health = health
@@ -13,7 +14,7 @@ class Enemy:
               f"Damage: {self.damage}\n"
               f"**********************")
 
-
+# Player class
 class Player:
     def __init__(self, name):
         self.name = name
@@ -43,12 +44,14 @@ class Player:
         self.weapon = weapon
 
 
+# Weapon class
 class Weapon:
     def __init__(self, name, damage):
         self.name = name
         self.damage = damage
 
 
+# Potion class
 class Potion:
     def __init__(self, strong, effect):
         self.strong = strong
@@ -61,6 +64,7 @@ class Potion:
             character.health -= self.strong
 
 
+# Starting objects
 troll = Enemy(name="Troll", health=100, damage=20)
 player = Player("Mordrag")
 knife = Weapon(name="Knife", damage=15)
