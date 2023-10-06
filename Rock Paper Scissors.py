@@ -1,7 +1,9 @@
 # Rock, paper, scissors game
 
+# Imports
 import random
 
+# Signs
 rock = '''
     _______
 ---'   ____)
